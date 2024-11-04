@@ -39,6 +39,8 @@ Due to time constraints, the project contains hard-coded values for the username
     -  dotnet run --project ProductApi (Please wait for the server setup)
 6. Run the Console Application
     -  dotnet run --project ProductApiClient
+7. Additionally, Swagger will be opened up in the browser to test the APIs interactively.
+   
 JWT Authentication
 Ensure to provide valid credentials when logging into the console application to obtain a JWT token for API requests.
 Username : testuser
