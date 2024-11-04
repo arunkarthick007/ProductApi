@@ -31,7 +31,8 @@ Due to time constraints, the project contains hard-coded values for the username
 1. Clone the repository:
        git clone <repository-url>
        cd ProductApi
-2. Restore NuGet packages for the entire solution:
+2. Open the solution file in Visual Studio 
+3. Restore NuGet packages for the entire solution:
     - dotnet restore
 4. Run database migrations from the API project:
     -  Before running the application for the first time, ensure to create the initial database migration by executing:
@@ -39,7 +40,7 @@ Due to time constraints, the project contains hard-coded values for the username
     -  dotnet ef database update --project ProductApi
 6. Run the API project:
     -  dotnet run --project ProductApi (Please wait for the server setup)
-7. Run the Console Application
+7. Run the Console Application on another terminal
     -  dotnet run --project ProductApiClient
 8. Additionally, Swagger will be opened up in the browser to test the APIs interactively.
    
