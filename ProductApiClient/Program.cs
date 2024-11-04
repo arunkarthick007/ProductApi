@@ -16,7 +16,7 @@ namespace ProductApiClient
         private static string token;
         static async Task Main(string[] args)
         {
-            client.BaseAddress = new Uri("https://localhost:7092");
+            client.BaseAddress = new Uri("http://localhost:5084");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
